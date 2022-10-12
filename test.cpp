@@ -77,6 +77,11 @@ void solve(vector<string> arr){
 
 
 }
+
+int print(int x){
+	return x;
+}
+
 int main(){
 	//[1,2,3]
 	// [2, 3, 32]
@@ -87,6 +92,7 @@ int main(){
 		cin >> arr[i];
 	}
 	solve(arr);
+	print(4);
 
 
 }
